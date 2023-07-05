@@ -1,4 +1,5 @@
 EcommerceApp is an Online Electronic Shopping Project.
+It is Maven Project.
 Build in Eclipse IDE.
 
 Technology used in this Project:

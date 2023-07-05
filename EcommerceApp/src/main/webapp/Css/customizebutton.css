@@ -1,0 +1,14 @@
+  .bu  {
+        border-radius: 10px;
+        color: black;
+        text-decoration: none;
+        background-color: #ebe9eb;
+        padding: 14px 25px;
+        display: inline-block;
+        }
+
+    .bu:hover {
+        color: black;
+        text-decoration: none;
+        background-color: darkgray;
+        }

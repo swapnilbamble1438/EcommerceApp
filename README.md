@@ -4,3 +4,9 @@ Technology used in this Project: i) HTML,CSS and Bootstrap: designing page layou
 
 ![Home Page](a1.png)
 
+![Home Page](a1ii.png)
+
+![Category Page](a2.png)
+
+![]()
+

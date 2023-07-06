@@ -30,7 +30,7 @@
    then change the Directory: like if it is C:\Users\Swapnil\git\EcommerceApp
    then change it to C:\Users\Swapnil\git\EcommerceAppNew
    -> Next
--  Now only select EcommerceAppNew\EcommerceApp
+-  Now only select EcommerceApp\EcommerceApp or EcommerceAppNew\EcommerceApp
    -> Finish
 -  If everything goes right Project will get successfully imported
 -  Now wait for few seconds for getting things properly loaded

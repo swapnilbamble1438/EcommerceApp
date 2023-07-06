@@ -17,6 +17,24 @@
 - SQLite Tools (Online or Offline Tool)
 
 ### Steps To Import And Run The Project in Eclipse EE
+- In Eclipse
+- Click on File
+- Select Import
+- Select Projects from Git(with smart imporot) -> Next
+- Select Clone URI -> Next
+- In URI paste this url:
+  -> Next
+-  Now in Local Destination if it is showing error,
+   means there is already a project with same name exist.
+   then change the Directory: like if it is C:\Users\Swapnil\git\EcommerceApp
+   then change it to C:\Users\Swapnil\git\EcommerceAppNew
+   -> Next
+-  Now only select EcommerceAppNew\EcommerceApp
+   -> Finish
+-  If everything goes right Project will get successfully imported
+-  Now wait for few seconds for getting things properly loaded
+-  Right Click On Project > Run As > Run On Server > Select Tomcat V8.0+ > Next > Add All> Done
+  
 
 
 ### Some Screenshots of this Project:

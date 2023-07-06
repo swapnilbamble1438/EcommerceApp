@@ -24,7 +24,7 @@
 - Select Clone URI -> Next
 - In URI paste this url: https://github.com/swapnilbamble1438/EcommerceApp.git
   -> Next
--  Now in Local Destination if it is not showing error any error then proceed -> Next
+-  Now in Local Destination if it is not showing any error then proceed -> Next
    else if it is showing error, means there is already a project with same name exist.
    then change the Directory: like if it is C:\Users\Swapnil\git\EcommerceApp
    then change it to C:\Users\Swapnil\git\EcommerceAppNew

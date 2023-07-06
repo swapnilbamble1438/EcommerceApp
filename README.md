@@ -41,7 +41,7 @@
    conn = DriverManager.getConnection("jdbc:sqlite:C:/Users/Swapnil/eclipse- 
    workspace/Online Electronic Shopping/mydatabase.db");
    
-   change it according to your mydatabase.db file location.
+   change the path according to your mydatabase.db file location.
    
 -  After doing changes save the DBConnect.java file.   
 -  Right Click On Project > Run As > Run On Server > Select Tomcat V8.0+ > Next > Finish

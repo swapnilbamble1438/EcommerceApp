@@ -35,7 +35,8 @@
 -  Now wait for few seconds for getting things properly loaded
 -  Now open Project > open com.conn package > open DBConnect.java file.
    Now make some changes in this file,
-   change Database file location / (mydatabase.db) file location
+   change Database file location / (mydatabase.db) file location/
+   change "conn" value,
    like if it is:
    
    conn = DriverManager.getConnection("jdbc:sqlite:C:/Users/Swapnil/eclipse- 
@@ -76,6 +77,7 @@
 ### You can also use MySQL as Database
 
 - Create any Database
+- Use tha Database
 - Insert this queries:
 
 - CREATE TABLE brand (
@@ -221,7 +223,26 @@
 
 - INSERT INTO usermaster VALUES ('admin','admin');
 
+### No do some changes in Project
+- In Eclipse
+- Open Project > open com.conn package > open DBConnect.java file.
+   Now make some changes in this file,
+   change "conn" value,
+  like if it is
+   
+   conn = DriverManager.getConnection("jdbc:sqlite:C:/Users/Swapnil/eclipse- 
+   workspace/Online Electronic Shopping/mydatabase.db");
+   
+   change it to
 
+  conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/DatabaseName","root","root");
+
+
+  Note: Put Address according to your Database Name and Password.
+
+  - Now try running Project and Check if the changes are done or not.
+
+   
 
 
 ### Project Creator: Swapnil Bamble

@@ -22,7 +22,7 @@
 - Select Import
 - Select Projects from Git(with smart imporot) -> Next
 - Select Clone URI -> Next
-- In URI paste this url:
+- In URI paste this url: [Project Link](https://github.com/swapnilbamble1438/EcommerceApp.git)
   -> Next
 -  Now in Local Destination if it is showing error,
    means there is already a project with same name exist.

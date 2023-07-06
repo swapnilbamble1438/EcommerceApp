@@ -223,7 +223,7 @@
 
 - INSERT INTO usermaster VALUES ('admin','admin');
 
-### No do some changes in Project
+### Now do some changes in Project
 - In Eclipse
 - Open Project > open com.conn package > open DBConnect.java file.
    Now make some changes in this file,
@@ -239,6 +239,8 @@
 
 
   Note: Put Address according to your Database Name and Password.
+
+  - Save the file
 
   - Now try running Project and Check if the changes are done or not.
 

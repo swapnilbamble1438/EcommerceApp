@@ -33,8 +33,9 @@
    -> Finish
 -  If everything goes right Project will get successfully imported
 -  Now wait for few seconds for getting things properly loaded
--  Now open Project > open com.conn package > open DBConnect.java file
-   Now change Database file location / (mydatabase.db) file location
+-  Now open Project > open com.conn package > open DBConnect.java file.
+   Now make some changes in this file,
+   change Database file location / (mydatabase.db) file location
    like if it is:
    
    conn = DriverManager.getConnection("jdbc:sqlite:C:/Users/Swapnil/eclipse- 

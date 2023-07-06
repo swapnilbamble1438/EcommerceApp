@@ -1,5 +1,5 @@
 # EcommerceApp 
-## It is an Online Electronic Shopping Project. 
+## It is an Online Electronic Shopping Application. 
 ### It is Maven Project. Build in Eclipse IDE.
 
 ### Technology used in this Project: 
@@ -24,8 +24,8 @@
 - Select Clone URI -> Next
 - In URI paste this url: https://github.com/swapnilbamble1438/EcommerceApp.git
   -> Next
--  Now in Local Destination if it is showing error,
-   means there is already a project with same name exist.
+-  Now in Local Destination if it is not showing error any error then proceed -> Next
+   else if it is showing error, means there is already a project with same name exist.
    then change the Directory: like if it is C:\Users\Swapnil\git\EcommerceApp
    then change it to C:\Users\Swapnil\git\EcommerceAppNew
    -> Next
@@ -33,7 +33,19 @@
    -> Finish
 -  If everything goes right Project will get successfully imported
 -  Now wait for few seconds for getting things properly loaded
--  Right Click On Project > Run As > Run On Server > Select Tomcat V8.0+ > Next > Add All> Done
+-  Now open Project > open com.conn package > open DBConnect.java file > Now change Database 
+   file location / (mydatabase.db) file location like
+   if it is:
+   conn = DriverManager.getConnection("jdbc:sqlite:C:/Users/Swapnil/eclipse- 
+   workspace/Online Electronic Shopping/mydatabase.db");
+   change it according to your mydatabase.db file location.
+-  After doing changes save the DBConnect.java file.   
+-  Right Click On Project > Run As > Run On Server > Select Tomcat V8.0+ > Next > Finish
+-  Now Website will get open, if not then try oepning it manually in Browser,
+   Type Url: http://localhost:8082/EcommerceApp
+-  Note: In Url put Port according to your server.
+
+  
   
 
 

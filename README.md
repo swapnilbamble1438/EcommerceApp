@@ -20,7 +20,7 @@
 - In Eclipse
 - Click on File
 - Select Import
-- Select Projects from Git(with smart imporot) -> Next
+- Select Projects from Git(with smart import) -> Next
 - Select Clone URI -> Next
 - In URI paste this url: https://github.com/swapnilbamble1438/EcommerceApp.git
   -> Next
@@ -44,8 +44,6 @@
 -  Now Website will get open, if not then try oepning it manually in Browser,
    Type Url: http://localhost:8082/EcommerceApp
 -  Note: In Url put Port according to your server.
-
-  
   
 
 
@@ -70,6 +68,9 @@
 ==================================================================================================================================================================
 ![About Page](a9.png)
 ==================================================================================================================================================================
+
+
+
 
 ### Project Creator: Swapnil Bamble
 

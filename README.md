@@ -33,12 +33,15 @@
    -> Finish
 -  If everything goes right Project will get successfully imported
 -  Now wait for few seconds for getting things properly loaded
--  Now open Project > open com.conn package > open DBConnect.java file > Now change Database 
-   file location / (mydatabase.db) file location like
-   if it is:
+-  Now open Project > open com.conn package > open DBConnect.java file
+   Now change Database file location / (mydatabase.db) file location
+   like if it is:
+   
    conn = DriverManager.getConnection("jdbc:sqlite:C:/Users/Swapnil/eclipse- 
    workspace/Online Electronic Shopping/mydatabase.db");
+   
    change it according to your mydatabase.db file location.
+   
 -  After doing changes save the DBConnect.java file.   
 -  Right Click On Project > Run As > Run On Server > Select Tomcat V8.0+ > Next > Finish
 -  Now Website will get open, if not then try oepning it manually in Browser,

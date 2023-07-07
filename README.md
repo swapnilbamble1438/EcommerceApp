@@ -5,10 +5,9 @@
 ### Technology used in this Project: 
 - i) Java: all Backend logic has been written in java.
 - ii) HTML,CSS and Bootstrap: designing page layout.
-- iii) Javascript: frontend login has been written in javascript.
-- iv) JSP: all the front end logic has been written in jsp. 
-- v) SQLite: SQLite database has been used as database. 
-- vi) Tomcat: project will be run over the tomcat server.
+- iii) JSP & Javascript: all the front end logic has been written in jsp and javascript. 
+- iv) SQLite: SQLite database has been used as database. 
+- v) Tomcat: project will be run over the tomcat server.
 
 ### Software And Tools Required:
 - Java JDK 8+

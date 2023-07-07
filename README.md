@@ -89,8 +89,8 @@
 
 ### You can also use MySQL as Database
 
-- Create any Database
-- Use tha Database
+- Create or Select a Database
+- Use that Database
 - Insert this queries:
 
 - CREATE TABLE brand (

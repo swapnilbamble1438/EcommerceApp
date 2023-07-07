@@ -3,7 +3,7 @@
 ### It is Maven Project. Build in Eclipse IDE.
 
 ### Technology used in this Project: 
-- i) Java: all Backeng logic has been written in java.
+- i) Java: all Backend logic has been written in java.
 - ii) HTML,CSS and Bootstrap: designing page layout.
 - iii) Javascript: frontend login has been written in javascript.
 - iv) JSP: all the front end logic has been written in jsp. 

@@ -56,6 +56,9 @@
    workspace/Online Electronic Shopping/mydatabase.db");
    
    change the "conn" value/path according to your mydatabase.db file location.
+
+                 mydatabase.db file will get just inside Project folder only,
+                 Open Project folder you will get mydatabase.db file present.
    
 -  After doing changes save the DBConnect.java file.   
 -  Right Click On Project > Run As > Run On Server > Select Tomcat V8.0+ > Next > Finish

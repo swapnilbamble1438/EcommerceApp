@@ -1,6 +1,6 @@
 # EcommerceApp 
 ## It is an Online Electronic Shopping Application. 
-### It is Maven Project. Build in Eclipse IDE.
+### It is Java J2EE Application. Build in Eclipse IDE using Maven Project.
 
 ### Technology used in this Project: 
 - i) Java: all Backend logic has been written in java.
@@ -8,6 +8,7 @@
 - iii) JSP & Javascript: all the front end logic has been written in jsp and javascript. 
 - iv) SQLite: SQLite database has been used as database. 
 - v) Tomcat: project will be run over the tomcat server.
+- vi) Maven: Maven is used for getting required jar files.
 
 ### Software And Tools Required:
 - Java JDK 8+

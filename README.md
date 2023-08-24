@@ -26,24 +26,11 @@
   -> Next
 -  Now in Local Destination
 
--  if it is not showing any error then proceed -> Next
+-  proceed -> Next
 
             Now only select EcommerceApp\EcommerceApp
             -> Finish
   
- -  else if it is showing error, means there is already a project with same name exist.
-        then change the Directory: like if it is
-
-           C:\Users\Swapnil\git\EcommerceApp
-   
-           then change it to 
-   
-           C:\Users\Swapnil\git\EcommerceAppNew
-   
-          -> Next
-
-            Now only select EcommerceAppNew\EcommerceApp 
-            -> Finish
 -  If everything goes right Project will get successfully imported
 -  Now wait for few seconds for getting things properly loaded
 -  Now open Project > open com.conn package > open DBConnect.java file.

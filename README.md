@@ -54,8 +54,8 @@
    Type Url: http://localhost:8082/EcommerceApp
 -  Note: In Url put Port according to your server.
   
-### Try Demo Version 
-url: https://swapnilbamble1438.github.io/EcomProjectDemo/
+### Try Javascript Version 
+url: https://swapnilbamble1438.github.io/EcommerceApplication/
 
 ### Some Screenshots of this Project:
 ![Home Page](a1.png)

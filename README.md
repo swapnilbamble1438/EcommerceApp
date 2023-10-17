@@ -1,6 +1,9 @@
 # EcommerceApp 
-## It is an Online Electronic Shopping Application. 
+
 ### It is Java J2EE Application. Build in Eclipse IDE using Maven Project.
+## It is an Online Electronic Shopping Application. 
+- It show the working example of how Online Shopping Websites works.
+-   Where User can add product to cart, or buy product. and Admin can Add new Products to items list and can manage the Customers.
 
 ### Technology used in this Project: 
 - i) Java: all Backend logic has been written in java.

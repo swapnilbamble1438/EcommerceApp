@@ -1,5 +1,8 @@
 # EcommerceApp 
 
+### Take a look at this Application
+url: https://swapnilbamble1438.github.io/EcommerceApplication/
+
 ### It is Java J2EE Application. Build in Eclipse IDE using Maven Project.
 ## It is an Online Electronic Shopping Application. 
 - It shows the working example of how Online Shopping Websites works.
@@ -57,8 +60,7 @@
    Type Url: http://localhost:8082/EcommerceApp
 -  Note: In Url put Port according to your server.
   
-### Try Javascript Version 
-url: https://swapnilbamble1438.github.io/EcommerceApplication/
+
 
 ### Some Screenshots of this Project:
 ![Home Page](a1.png)

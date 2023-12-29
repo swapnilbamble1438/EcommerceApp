@@ -3,7 +3,7 @@
 ### Take a look at this Application
 url: https://swapnilbamble1438.github.io/EcommerceApplication/
 
-### It is Java J2EE Application. Build in Eclipse IDE using Maven Project.
+### It is Java J2EE Application. Build in Eclipse IDE using Maven.
 ## It is an Online Electronic Shopping Application. 
 
 ### Application Features:

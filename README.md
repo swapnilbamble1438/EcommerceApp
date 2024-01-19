@@ -37,6 +37,9 @@ url: https://swapnilbamble1438.github.io/EcommerceApplication/
 
 -  proceed -> Next
 
+- select -> Search for nested projects
+- and select -> Detect and configure project natures options
+
             Now only select EcommerceApp\EcommerceApp
             -> Finish
   

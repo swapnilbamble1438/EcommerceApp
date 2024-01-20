@@ -1,4 +1,4 @@
-# EcommerceApp 
+# Ecommerce Application - Java J2EE
 
 ### Take a look at this Application
 url: https://swapnilbamble1438.github.io/EcommerceApplication/

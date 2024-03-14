@@ -27,16 +27,5 @@ pipeline {
             }
         }
     }
-
-    post {
-        success {
-            // This block is executed when the pipeline succeeds
-            echo 'Pipeline succeeded!'
-        }
-        failure {
-            // This block is executed when the pipeline fails
-            echo 'Pipeline failed!'
-        }
-    }
 }
 }

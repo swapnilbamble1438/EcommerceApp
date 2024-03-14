@@ -15,7 +15,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Run Maven build
-                sh 'mvn -B -f $WORKSPACE/EcommerceApp/pom.xml clean install package'
+                sh 'mvn -B -f EcommerceApp/pom.xml clean install package'
             }
         }
         stage('DockerImage') {

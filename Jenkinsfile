@@ -1,6 +1,8 @@
 pipeline {
     agent any
-
+    tools {
+        maven 'Maven'
+    }
     stages {
         stage('Checkout') {
             steps {
@@ -13,7 +15,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Run Maven build
-                sh 'mvn clean install package'
+                sh 'mvn -B -f $WORKSPACE/EcommerceApp/pom.xml clean install package'
             }
         }
         stage('DockerImage') {

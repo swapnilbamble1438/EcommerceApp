@@ -5,8 +5,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Use Git credentials to checkout source code from Git repository
-                withCredentials([usernamePassword(credentialsId: 'jenkins-int-github', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD')]) {
-                    git credentialsId: 'jenkins-int-github', url: 'https://github.com/slalit28/EcommerceApp.git', branch: 'master'
+                withCredentials([usernamePassword(credentialsId: 'github-int-jenkins', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD')]) {
+                    git credentialsId: 'github-int-jenkins', url: 'https://github.com/slalit28/EcommerceApp.git', branch: 'master'
                 }
             }
         }

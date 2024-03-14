@@ -5,7 +5,7 @@ FROM tomcat:9.0-jdk11-openjdk
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 
 # Copy the WAR file from the local filesystem into the container
-COPY target/EcommerceApp.war /usr/local/tomcat/webapps/ROOT.war
+COPY EcommerceApp/target/EcommerceApp.war /usr/local/tomcat/webapps/ROOT.war
 
 # Expose port 8080 to the outside world
 EXPOSE 8080

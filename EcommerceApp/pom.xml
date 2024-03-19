@@ -7,6 +7,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>EcommerceApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  
   <dependencies>
     
      <dependency>
@@ -22,14 +23,14 @@
     <artifactId>commons-fileupload</artifactId>
     <version>1.4</version>
 </dependency>
-
+ 
     <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 <dependency>
     <groupId>commons-io</groupId>
     <artifactId>commons-io</artifactId>
     <version>2.11.0</version>
 </dependency>
-
+ 
 <!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
 <dependency>
     <groupId>javax.servlet</groupId>
@@ -37,29 +38,29 @@
     <version>3.0-alpha-1</version>
     <scope>provided</scope>
 </dependency>
-
+ 
     <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
     <version>8.0.29</version>
 </dependency>
-
+ 
 <!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
 <dependency>
     <groupId>org.xerial</groupId>
     <artifactId>sqlite-jdbc</artifactId>
     <version>3.42.0.0</version>
 </dependency>
-
-
+ 
+ 
 <!-- https://mvnrepository.com/artifact/org.antlr/antlr4-runtime -->
 <dependency>
     <groupId>org.antlr</groupId>
     <artifactId>antlr4-runtime</artifactId>
     <version>4.10.1</version>
 </dependency>
-
+ 
 <!-- https://mvnrepository.com/artifact/javax.servlet.jsp/jsp-api -->
 <dependency>
     <groupId>javax.servlet.jsp</groupId>
@@ -67,7 +68,7 @@
     <version>2.2.1-b03</version>
     <scope>provided</scope>
 </dependency>
-
+ 
 <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
 <dependency>
     <groupId>javax.servlet</groupId>
@@ -80,5 +81,23 @@
   </dependencies>
   <build>
     <finalName>EcommerceApp</finalName>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+        </plugin>
+        <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+        </plugin>
+    </plugins>
   </build>
 </project>

@@ -7,22 +7,16 @@ xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLS
   0.0.1-SNAPSHOT
   EcommerceApp Maven Webapp
   http://maven.apache.org
-  
- 
-    
-    
+
       junit
       junit
       3.8.1
       test
-   
-    
-   
+ 
     commons-fileupload
     commons-fileupload
     1.4
- 
-   
+
     commons-io
     commons-io
     2.11.0
@@ -32,7 +26,6 @@ xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLS
     3.0-alpha-1
     provided
  
-   
     mysql
     mysql-connector-java
     8.0.29
@@ -40,7 +33,6 @@ xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLS
     org.xerial
     sqlite-jdbc
     3.42.0.0
- 
  
     org.antlr
     antlr4-runtime
@@ -55,21 +47,15 @@ xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLS
     javax.servlet-api
     3.0.1
     provided
-    
-    
- 
- 
+  
     EcommerceApp
    
-       
             org.apache.maven.plugins
             maven-compiler-plugin
            
                 1.8
                 1.8
            
-       
-       
                 org.apache.maven.plugins
                 maven-war-plugin
                 3.3.2

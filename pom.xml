@@ -7,6 +7,9 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>EcommerceApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <properties>
+     <sonar.organization>infomarcy</sonar.organization>
+  </properties>
   <dependencies>
     
      <dependency>

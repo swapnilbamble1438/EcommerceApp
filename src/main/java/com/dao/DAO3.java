@@ -5,27 +5,13 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.jar.Attributes.Name;
-
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
-
-import org.apache.commons.fileupload.FileItem;
-import org.apache.commons.fileupload.disk.DiskFileItemFactory;
-import org.apache.commons.fileupload.servlet.ServletFileUpload;
-
-import com.entity.Product;
 import com.entity.cart;
-import com.entity.customer;
 import com.entity.laptop;
 import com.entity.mobile;
 import com.entity.orders;
 import com.entity.order_details;
 import com.entity.tv;
-import com.entity.usermaster;
-import com.entity.viewlist;
 import com.entity.watch;
-import com.utility.MyUtilities;
 
 
 

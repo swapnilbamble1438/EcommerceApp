@@ -1,0 +1,24 @@
+# Ignore Vim swap files and editor temporary backu*.sw?
+*.sw?
+.*.sw?
+
+# Ignore local build artifacts (Stage 1 handles compilation)
+**/target/
+**/*.war
+**/*.jar
+
+# Ignore IDE configuration directories
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# Ignore local operating system metadata files
+.DS_Store
+Thumbs.db
+
+# Ignore version control records
+.git
+.gitignore

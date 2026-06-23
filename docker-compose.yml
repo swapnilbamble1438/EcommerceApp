@@ -1,0 +1,36 @@
+version: "3.8"
+
+services:
+  java-app:
+    build:
+      context: .
+    container_name: java-app
+    ports:
+      - "8080:8080"
+    volumes:
+      - /home/ubuntu/projects/Containerized-Java-EcommerceApp/mydatabase:/app/EcommerceApp/mydatabase.db
+    restart: unless-stopped
+    networks:
+      - java_network
+    healthcheck:
+      test: ['CMD-SHELL','curl -f http://localhost:8080/health||exit 1']
+      interval: 5s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
+  nginx:
+    build: ./nginx
+    container_name: nginx
+    ports:
+      - "80:80"
+    networks:
+      - java_network
+    depends_on:
+      - java-app
+    restart: always
+
+networks:
+  java_network:
+
+
